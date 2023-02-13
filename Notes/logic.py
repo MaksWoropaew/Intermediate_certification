@@ -65,7 +65,7 @@ def delete(input):
             print(Style.RESET_ALL)  
     db.writeTofileList(listOfNotes, 'a')
     if isDeleted == False :
-        print(Fore.RED + 'Такой заметки нет. Возможно вы ввели неверный id')
+        print(Fore.RED + 'Такой заметки нет. Возможно введен неверный id')
         print(Style.RESET_ALL)  
 
 
